@@ -6,6 +6,7 @@ var current_controller:int = 0
 
 
 func _ready():
+	print(cameras)
 	for camera in cameras:
 		if null != camera:
 			camera.current = false
@@ -33,7 +34,6 @@ func _process(_delta):
 				if null != cameras[index]:
 					current_controller = index
 					cameras[current_controller].make_current()
-					
 			
 		
 	
