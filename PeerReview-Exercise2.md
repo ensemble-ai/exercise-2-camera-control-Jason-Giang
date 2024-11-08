@@ -96,8 +96,7 @@ ___
 
 ___
 #### Justification ##### 
-Write Justification here.
-The crosshair doesn't go back to the target after the delay duration.Because the crosshair is faster than the target, it does somewhat look like the target is following the crosshair.
+The crosshair doesn't go back to the target after the delay duration. Because the crosshair is faster than the target, it does somewhat look like the target is following the crosshair.
 The camera doesn't have a leash distance.
 ___
 ### Stage 5 ###
@@ -107,25 +106,12 @@ ___
 - [ ] Good
 - [ ] Satisfactory
 - [x] Unsatisfactory
-The implementations for almost all of the cameras is the same. There isn't 2 borders and none of the functionalities were added.
 ___
 #### Justification ##### 
+The implementations for almost all of the cameras is the same. There isn't 2 borders and none of the functionalities were added.
 
 ___
 # Code Style #
-
-
-### Description ###
-Check the scripts to see if the student code adheres to the dotnet style guide.
-
-If sections do not adhere to the style guide, please peramlink the line of code from Github and justify why the line of code has not followed the style guide.
-
-It should look something like this:
-
-* [description of infraction](https://github.com/dr-jam/ECS189L) - this is the justification.
-
-Please refer to the first code review template on how to do a permalink.
-
 
 #### Style Guide Infractions ####
 [Spaces between functions](https://github.com/ensemble-ai/exercise-2-camera-control-Jason-Giang/blob/8e58baeb7d9f6bc0e8e298522f332872aba2dcc6/Obscura/scripts/camera_controllers/four_way_push.gd#L21) aren't always 2 blank lines.
@@ -138,16 +124,7 @@ ___
 #### Put style guide infractures ####
 
 ___
-
 # Best Practices #
-
-### Description ###
-
-If the student has followed best practices (Unity coding conventions from the StyleGuides document) then feel free to point at these code segments as examplars. 
-
-If the student has breached the best practices and has done something that should be noted, please add the infraction.
-
-This should be similar to the Code Style justification.
 
 #### Best Practices Infractions ####
 There was a lack of comments on all of the camera controllers, making it harder to understand the functionality. 
@@ -155,4 +132,4 @@ There was a lack of comments on all of the camera controllers, making it harder 
 
 #### Best Practices Exemplars ####
 It was good to wrap the [long variables](https://github.com/ensemble-ai/exercise-2-camera-control-Jason-Giang/blob/8e58baeb7d9f6bc0e8e298522f332872aba2dcc6/Obscura/scripts/camera_controllers/lerp_smoothing_target_focus.gd#L20) with multiple lines for readability.
-All of the camera controller scripts are in the camera_controlers folder.
+All of the camera controller scripts are in the camera_controllers folder.
